@@ -104,7 +104,7 @@
     background-color: var(--darkGrey);
     width: fit-content;
     padding: 1rem;
-    align-items: start;
+    align-items: flex-start;
     border-radius: 5px;
     position: absolute;
     right: 4rem;
@@ -157,4 +157,10 @@
 .calories div :nth-child(2){
     color: white;
     font-size: 1.5rem;
+}
+.hero-blur{
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+    justify-content: flex-start;
 }
