@@ -6,13 +6,18 @@
     gap: 4rem;
     position: relative;
 }
-.plans-blur-1{
+.plans-1{
+    background: rgba(253, 120, 43, 0.69);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(150px);
+    z-index: -9;
     width: 32rem;
     height: 23rem;
     top: 6rem;
     left: 0rem;
 }
-.plans-blur-2{
+.plans-2{
     width: 32rem;
     height: 23rem;
     top: 6rem;
