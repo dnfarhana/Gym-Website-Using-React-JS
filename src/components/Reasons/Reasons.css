@@ -74,7 +74,7 @@
 }
 @media screen and (max-width:768px){
     .Reasons{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .left-r{
         grid-auto-rows: auto;
